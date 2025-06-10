@@ -72,7 +72,8 @@ namespace Supermarket
 
 		private void label_clear_Click(object sender, EventArgs e)
 		{
-
+			Text_Box_username.Clear();
+			Text_Box_password.Clear();
 		}
 
 		private void label_cross_Click(object sender, EventArgs e)
@@ -113,6 +114,11 @@ namespace Supermarket
 		private void label_minimize_MouseLeave(object sender, EventArgs e)
 		{
 			label_minimize.ForeColor = Color.Black;
+		}
+
+		private void guna2TextBox2_TextChanged(object sender, EventArgs e)
+		{
+
 		}
 	}
 }
